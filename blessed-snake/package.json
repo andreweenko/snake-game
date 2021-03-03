@@ -1,0 +1,67 @@
+{
+  "_from": "blessed-snake",
+  "_id": "blessed-snake@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-rwVwNcwuBXYSyxk0Vrh96oqIg/L8b0zmGu9c3s0iiRHMxcZLdx2dN6ac2VhqyjYdHnMjIj1mWm50+lmPiwuCrg==",
+  "_location": "/blessed-snake",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "blessed-snake",
+    "name": "blessed-snake",
+    "escapedName": "blessed-snake",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/blessed-snake/-/blessed-snake-1.0.2.tgz",
+  "_shasum": "e535ff832bdd3c546b8ca6027929cb2f4ece19a3",
+  "_spec": "blessed-snake",
+  "_where": "C:\\Users\\Andrew\\Desktop\\snake-game",
+  "author": {
+    "name": "Samuel Ogden"
+  },
+  "bin": {
+    "blessed-snake": "bin/index.js"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/register": "^7.10.4",
+    "blessed": "^0.1.81",
+    "react": "^16.13.1",
+    "react-blessed": "^0.6.2"
+  },
+  "deprecated": false,
+  "description": "Nokia3310",
+  "devDependencies": {
+    "@babel/cli": "^7.10.4"
+  },
+  "files": [
+    "bin"
+  ],
+  "keywords": [
+    "snake",
+    "react",
+    "blessed"
+  ],
+  "license": "MIT",
+  "main": "bin/index.js",
+  "name": "blessed-snake",
+  "repository": {
+    "url": "https://github.com/sam-ogden"
+  },
+  "scripts": {
+    "build": "babel src -d bin",
+    "release": "yarn build && yarn publish",
+    "start": "yarn build && node bin/index"
+  },
+  "version": "1.0.2"
+}
